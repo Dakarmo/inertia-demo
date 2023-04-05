@@ -18,6 +18,7 @@ defineProps({
         </header>
         <article class="mt-10">
             <div class="mb-5">Current Page: {{ currentPage }}</div>
+            <slot />
         </article>
     </main>
 </template>
